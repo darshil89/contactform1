@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    margin: 60px;
+    background-color: rgba(9, 255, 0, 0.264);
+}
+.container{
+    background-color: rgba(95, 92, 92, 0.184);
+    padding: 30px;
+    margin: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    margin: 0;
+}
+input[type="name"],
+input[type="email"],
+input[type="number"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 2px;
+}
+header{
+    background-color: rgba(0, 255, 21, 0.429);
+    font-size: 60px;
+    }
+input[type="submit"]{
+    background-color: rgba(30, 255, 0, 0.795);
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input[type="submit"]:hover{
+    background-color: rgb(13, 255, 0);
+}
